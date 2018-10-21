@@ -160,7 +160,7 @@ $("#submit-button").append(submitButton);
 
 // will run waystoEndGame after 120 seconds no matter what.  Needs to be 
 //based off the countdown timer.
-setTimeout(waystoEndGame,12000)
+setTimeout(waystoEndGame,120000)
 
 var submitButtonValue;
 //on click of submit, run ways to end game
