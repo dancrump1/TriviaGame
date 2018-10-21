@@ -1,9 +1,31 @@
 #titleContainer {
     background-color: yellow;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 50px;
+    padding-left: 20px;
 }
+
 #qaContainer{
+    padding-top: 25px;
     background-color: yellow;
+    margin-left: 25%;
+    margin-right: 25%;
 }
-body{
-    background-color: blue;
+
+#resultsContainer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: yellow;
+    margin-left: 25%;
+    margin-right: 25%;}
+
+#container{
+    background-color: black;
+}
+
+
+
+#timer-text{
+    padding-left: 20px;
 }

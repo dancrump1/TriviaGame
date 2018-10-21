@@ -12,30 +12,42 @@
         crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-        
+
 </head>
 
 <body>
+    <div id="container">
 
-    <div id="qaContainer">
-        <!-- Hide qaContainer until titleContainer button has been clicked? -->
         <div id="titleContainer">
             <h1 id='Title'>Totally Trivial Trivia</h1>
-            <p>Please select the difficulty for the next 5 questions</p>
+            <p>Please select the difficulty for the next 10 questions. </p> 
+            <p>Don't worry, the time will reset once you select a difficulty.  I am just a poor programmer.</p>
             <input class="btn btn-primary difficulty" type="submit" value="easy">
             <input class="btn btn-primary difficulty" type="submit" value="medium">
             <input class="btn btn-primary difficulty" type="submit" value="hard">
         </div>
 
-        <p id="timer-text"></p>
 
-        <ul id="questionList-Text"></ul>
+        <div id="qaContainer">
+            <!-- Hide qaContainer until titleContainer button has been clicked? -->
+
+            <p id="timer-text"></p>
+
+            <ul id="questionList-Text"></ul>
+            <div id="submit-button"></div>
 
 
-        <input class="btn btn-primary" type="submit" value="Submit">
+        </div>
 
+        <div id="resultsContainer">
+            <!-- Will hold the results -->
+            <p>Correct Answers!</p>
+            <div id="numbercorrect-text"></div>
+            <p>Incorrect Answers :(</p>
+            <div id="numberwrong-text"></div>
+            <div id="resetButton"></div>
+        </div>
     </div>
-
     <script type="text/javascript" src="assets/javasript/app.js"></script>
 
 </body>
